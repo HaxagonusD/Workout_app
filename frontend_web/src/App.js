@@ -1,6 +1,7 @@
 //import dependenies 
 import {app, auth, db} from "./firebaseSetUp"
-import { collection, addDoc } from "firebase/firestore"; 
+import { collection, addDoc } from "firebase/firestore";
+
 //import hooks
 import {useAuthState} from "react-firebase-hooks/auth"
 
