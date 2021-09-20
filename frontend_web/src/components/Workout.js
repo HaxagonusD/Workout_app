@@ -1,6 +1,7 @@
 import { useState } from "react"
 //components 
 import Exercise from "./Exercise"
+import SignOut from "./SignOut"
 
 
 function Workout(){
@@ -11,6 +12,7 @@ function Workout(){
     }
 
     return (<div>
+        <SignOut/>
         <h1>Template #1</h1>
         {exercises}
         <button onClick={addExercise}>Add exercise</button>

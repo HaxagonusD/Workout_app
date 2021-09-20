@@ -11,3 +11,11 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
+
+
+
+import { initializeApp } from "firebase/app"
+
+const firebaseApp = initializeApp({
+  
+})
